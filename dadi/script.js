@@ -16,11 +16,13 @@ console.log ("Il numero è", pcRandom);
 const utenteRandom = Math.floor(Math.random() *6) +1;
 console.log ("Il numero è", utenteRandom);
 
-
+// SE utenteRandom > pcRandom mi stampi hai vinto
 if (utenteRandom > pcRandom){
     console.log ("Hai vinto");
+    // SE utenteRandom < pcRandom mi stampi hai perso
 }else if (utenteRandom < pcRandom){
     console.log("Hai perso")
+    // Altrimenti Pareggio
 }else{
     console.log("Pareggio")
 }
